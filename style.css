@@ -4,3 +4,16 @@
 @media(max-height:780px){.menu-content{top:14%}.menu h1{font-size:83px;margin:20px 0 16px}.menu .pitch{font-size:21px;margin:14px 0}.menu .brief{display:none}.select-row{margin-bottom:8px}#unlock-note{margin-bottom:12px}.menu .record{margin-top:10px}}
 @media(max-height:600px){.menu-content{top:83px}.menu h1{font-size:60px;margin:12px 0}.menu .pitch{display:none}.menu .eyebrow{font-size:10px}.menu .record{display:none}.menu .primary{padding:14px 18px}.menu-bottom{display:none}}
 @media(max-width:600px){.menu-content{width:86%;top:14%}.menu h1{font-size:82px}.mission p{max-width:calc(100vw - 165px);font-size:12px}.mission h2{max-width:calc(100vw - 160px);font-size:17px}.mission-steps li{padding:11px 0}.mission-briefing{padding:22px}.mission-briefing h2{margin:18px 0 12px}.mission-select select{max-width:235px}.menu .brief{display:none}#relay-list{gap:5px}#relay-list>span{padding:7px;gap:8px}}
+
+/* Mission 03: the hidden door network. */
+[data-level="3"] .menu-art{opacity:0}[data-level="3"] .menu-shade{background:linear-gradient(90deg,#020906f2,#031009b5 38%,#06110c0a 82%),linear-gradient(0deg,#020b09e6,transparent 38%)}
+#code-vision,#portal-wash{position:absolute;inset:0;pointer-events:none;opacity:0;z-index:4}
+#code-vision{background:repeating-linear-gradient(0deg,transparent 0px,transparent 3px,#8fff8210 4px);box-shadow:inset 0 0 130px #49ff5335;border:1px solid #a4ff9277;transition:opacity .15s}
+#portal-wash{background:linear-gradient(105deg,#baff8e44,transparent 35%,#baff8e77 50%,transparent 68%),repeating-linear-gradient(0deg,#001d1088 0,#001d1088 3px,transparent 4px,transparent 12px);backdrop-filter:blur(3px)}
+#network-hud{position:absolute;right:4%;top:277px;width:178px;padding:14px 13px;background:#031109d9;border:1px solid #b1ff8e3b;border-left:2px solid #b1ff8e;display:flex;flex-direction:column;gap:9px;font:10px Console,monospace;color:#c9dcc9;letter-spacing:.7px}
+#network-hud .network-kicker{font-size:9px;color:#8eaa95;letter-spacing:1px}#network-hud strong{font-size:16px;letter-spacing:1.5px;color:#eeffeb}#network-hud b{border-top:1px solid #b1ff8e33;padding-top:10px;color:#b1ff8e;font-weight:400;font-size:10px}
+#touch-controls [data-touch=scan]{display:none;right:175px;bottom:225px}[data-level="3"] #touch-controls [data-touch=scan]{display:block}
+[data-level="3"] .mission{padding:12px 15px;background:linear-gradient(90deg,#021109de,#0211099c 80%,transparent);left:3%;top:88px;max-width:470px}
+@media(max-width:600px){#network-hud{width:120px;top:221px;padding:10px 8px;font-size:9px;gap:7px}#network-hud strong{font-size:12px}#network-hud b{font-size:9px}[data-level="3"] .mission{padding:9px;left:2%;top:79px}#prompt{max-width:85vw;width:max-content;font-size:12px}#toast{font-size:11px;bottom:155px}}
+@media(max-height:600px){#network-hud{top:245px;padding:9px;gap:6px}.telemetry{width:120px}.telemetry canvas{width:120px;height:120px}}
+@media(prefers-reduced-motion:reduce){#portal-wash{backdrop-filter:none}#code-vision{transition:none}}

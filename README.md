@@ -38,8 +38,11 @@ A pálya márványfelületeket, fekete ajtókat rézszerelvényekkel, CRT-monito
 | Control | Action |
 | --- | --- |
 | WASD | Mozgás |
-| Egér | Körülnézés |
-| Bal egérgomb | Lövés; nyomva tartva sorozatlövés |
+| Nyílbillentyűk | Körülnézés és célzás touchpad nélkül |
+| Touchpad / egér | Körülnézés; laptop módban kattintás nélkül |
+| X vagy bal egérgomb | Lövés; nyomva tartva sorozatlövés |
+| C | Folyamatos tüzelés be- és kikapcsolása |
+| V | A nézet visszaállítása vízszintesre |
 | Shift | Időlassítás nyomva tartva |
 | Space | Ugrás; a levegőben újra megnyomva dupla ugrás |
 | Q | Kitérés a mozgás irányába |
@@ -48,7 +51,9 @@ A pálya márványfelületeket, fekete ajtókat rézszerelvényekkel, CRT-monito
 | F | Kódlátás a harmadik pályán; nyomva tartva |
 | Escape vagy P | Szünet |
 
-Click the game if Chrome needs to capture the mouse. If mouse capture is unavailable, hold the mouse button and drag to aim. Touch controls are available on devices with a coarse pointer, though the experience is designed for a desktop keyboard and mouse.
+Laptop / Touchpad is the default control mode. You can play entirely from the keyboard: WASD to move, arrows to aim, X to shoot, or C to toggle continuous fire. This keeps aiming available even when a laptop temporarily suppresses touchpad movement while typing. V levels the view. In laptop mode, sliding over the arena looks around without holding a click; use the arrows to continue turning when the cursor reaches the edge.
+
+Choose Mouse / Pointer Lock for unlimited mouse looking, or drag to aim if Chrome cannot capture the mouse. Look sensitivity is adjustable in How to Play and in the pause menu. The selected mode and sensitivity are saved on this device. Pausing, switching tabs, restarting, or leaving a mission clears held controls and automatic fire. Touch controls remain available on devices with a coarse pointer.
 
 The menu offers three difficulties, a performance graphics setting, and audio controls. The best score and graphics/audio preferences are saved on this device when browser storage is available.
 
